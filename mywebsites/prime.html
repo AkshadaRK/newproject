@@ -1,0 +1,25 @@
+ <html>
+<body>
+<script>
+var low=parseInt(prompt("enter n01"));
+var high=parseInt(prompt("enter n02"));
+
+ while (low < high)
+    {
+        var flag = 0;
+        for(var i= 2; i <= low/2; ++i)
+        {
+            if(low % i == 0)
+            {
+                flag = 1;
+                break;
+            }
+        }
+        if (flag == 0)
+           document.write("prime nos are"+ " "+low);
+        ++low;
+    }
+</script>
+</body>
+</html>
+

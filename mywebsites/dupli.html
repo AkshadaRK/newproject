@@ -1,0 +1,39 @@
+<html>
+<body>
+<script>
+
+var num=[10,20,30,60,40,10,20];
+var count=0;
+for(var i=0;i<num.length;i++)
+{
+document.write(num[i]+"</br>");
+}
+
+document.write("duplicate values are--");
+
+for(var i=0;i<num.length;i++)
+{
+for(var j=i+1;j<num.length;j++)
+{
+if(num[i]==num[j])
+{
+document.write(num[i]+"</br>");
+}
+}
+}
+
+ if (j == i)
+    {
+      num[count] = num[i];
+      count++;
+    }
+  document.write("Array obtained after removing duplicate elements" + "</br>");
+ 
+  for (var c = 0; c < count; c++)
+  {
+    document.write(num[i]);
+	}
+ 
+</script>
+</body>
+</html>

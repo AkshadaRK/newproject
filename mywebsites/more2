@@ -1,0 +1,30 @@
+<html>
+<body bgcolor="aqua">
+
+<center> 
+<table BGCOLOR="GOLD">
+</br>
+
+<tr>
+<td>  
+<img height="200" width="400" src="images/r1.jpg"> 
+<img height="200" width="400" src="images/r2.jpg"> 
+<img height="200" width="400" src="images/r9.jpg"> 
+</td>
+</tr>
+
+<tr>
+<td>  
+<img height="200" width="400" src="images/r4.jpg"> 
+<img height="200" width="400" src="images/r7.jpg"> 
+<img height="200" width="400" src="images/r6.jpg">
+</td>
+</tr>
+
+<tr>
+<td>  
+<img height="200" width="400" src="images/r5.jpg"> 
+<img height="200" width="400" src="images/r8.jpg"> 
+<img height="200" width="400" src="images/r3.jpg">
+</td>
+</tr>

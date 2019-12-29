@@ -1,0 +1,34 @@
+<html>
+<body>
+<script>
+
+var InputArray=[];
+
+for(var i=0;i<5;i++)
+{
+InputArray[i]=prompt("Enter the first set of numbers"+ (i+1));
+}
+
+for(var i=0;i<5;i++)
+{
+document.write(InputArray[i] +"<br/>");
+}
+
+var InputArray1=[];
+
+for(var j=0;j<5;j++)
+{
+InputArray1[j]=prompt("Enter the second set numbers"+ (j+1)+ "<br/>");
+}
+
+
+for(var j=0;j<5;j++)
+{
+document.write(InputArray1[j]);
+}
+
+document.write(InputArray1concat(InputArray[i],InputArray1[j]) + "<br/>");
+
+</script>
+</body>
+</html>

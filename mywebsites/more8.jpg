@@ -1,0 +1,32 @@
+<html>
+<body bgcolor="aqua">
+
+<center> 
+<table BGCOLOR="GOLD">
+</br>
+
+<tr>
+<td>  
+<img height="200" width="400" src="images/ka1.jpg"> 
+<img height="200" width="400" src="images/ka2.jpg"> 
+<img height="200" width="400" src="images/ka3.jpg"> 
+</td>
+</tr>
+
+<tr>
+<td>  
+<img height="200" width="400" src="images/ka9.jpg"> 
+<img height="200" width="400" src="images/ka4.jpg"> 
+<img height="200" width="400" src="images/ka6.jpg">
+</td>
+</tr>
+
+<tr>
+<td>  
+<img height="200" width="400" src="images/ka7.jpg"> 
+<img height="200" width="400" src="images/ka8.jpg"> 
+<img height="200" width="400" src="images/ka4.jpg">
+</td>
+</tr>
+</center> 
+</table>

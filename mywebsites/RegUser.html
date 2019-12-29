@@ -1,0 +1,256 @@
+<html>
+<head> 
+<a href="Regs.html"> <font color="gold"> BACK TO HOMEPAGE </font> </a> 
+<h1>
+
+<center>
+<th> Welcome!!!! </th>
+<br> </br>
+</h1>
+</center>
+
+<center>
+<h3> <td> New User Sign Up </td> </h3>
+
+<title> Registration Form </title>
+
+<style>
+tr:hover {
+background-color:#f5f5f5;
+}
+</style>
+
+
+<script>
+function validate()
+{
+	if(!chkusername() || !validatepass())
+	{
+		alert ("please correct error messages");
+		return false;
+	}
+	return true;
+}
+
+
+function chkusername()
+{
+	var uname = document.getElementById("txtname").value;
+	if(uname == "" || uname.length<5)
+	{
+		alert("Username is blank or less then 5 characters");
+		 uname = prompt("Enter correct username");
+		docment.getElementById("txtname").value = uname;
+		return false;
+	}
+	return true;
+
+}
+
+function validatepass()
+{
+	errmsg="";
+	var cpass = document.getElementById("txtrpass").value;
+	var pass = document.getElementById("txtpass").value;
+	
+	if(pass!=cpass)
+	{
+		errmsg = "Password and Confirm Password mismatch";
+		document.getElementById("errp").innerHTML = errmsg;
+		return false;
+	}
+	else
+	{
+		document.getElementById("errp").innerHTML = errmsg;
+		return true;
+	}
+	
+}
+ function email()
+ {
+ 
+ }
+
+</script>
+</head>
+
+
+<body background="images/2.jpg" >
+<form action="confirm1.php" method="get" onsubmit="return validate()">
+
+<table width="60%">
+
+
+<tr>
+<th colspan="2"> Registration Form  </th>
+</tr>
+
+<tr>
+<td>
+Username
+</td>
+
+<td>
+<input type="text" name="txtname" maxlength="10" onblur="chkusername()" autofocus required id="txtname" placeholder = "Enter Username"> </>
+</td>
+</tr>
+
+<tr>
+<td>
+First Name
+</td>
+
+<td>
+<!--<input type="radio" name="name"  value="Mr" nowrap /> Mr.
+<input type="radio" name="name" value="Mrs" nowrap/> Mrs.
+<input type="radio" name="name" value="Ms" nowrap/> Ms*/-->
+<input type="text" name="fname" placeholder = "Enter First Name"> </>
+</td>
+</tr>
+
+<tr>
+<td>
+Last Name
+</td>
+
+<td>
+<input type="text" name="ln ame" placeholder = "Enter Last Name"> </>
+</td>
+</tr>
+
+
+<tr>
+<td>
+Password
+</td>
+
+<td>
+<input type="password" name="pwd"  id="txtrpass" autofocus placeholder = "Enter Password"> </>
+</td>
+</tr>
+
+<div id="errp"></div>
+</td>
+</tr>
+<tr>
+<td>
+Retype Password
+</td>
+<td>
+<input type="password" id="txtrpass" name="rpwd" 
+ autofocus 
+placeholder = "Re-Enter Password" onblur="validatepass()"
+/>
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+Address
+</td>
+
+<td>
+<input type="textarea" name="txtadd" placeholder = "Enter Address"> </input>
+</td>
+</tr>
+
+<tr>
+<td>
+Phone Number
+</td>
+
+<td>
+<input type="number" name="num" placeholder = "Enter Phone Number"> </input>
+</td>
+</tr>
+
+<tr>
+<td>
+Date Of Birth
+</td>
+
+<td>
+<input type="date" name="dob" placeholder = "Enter Date Of Birth"> </input>
+</td>
+</tr>
+
+<tr>
+<td>
+Gender
+</td>
+
+<td>
+<input type="radio" name="gen"/> Male
+<input type="radio" name="gen"/> Female
+<input type="radio" name="gen"/> Transgender
+</input>
+</td>
+</tr>
+
+<tr>
+<td>
+E-mail
+</td>
+
+<td>
+<input type="email" name="txteml" placeholder = "Enter E-mail"> </>
+</td>
+</tr>
+
+<tr>
+<td>
+Aadhar Number
+</td>
+
+<td>
+<input type="number" name="anum" placeholder = "Enter Aadhar Number"> </input>
+</td>
+</tr
+
+<tr>
+<td>
+Driving
+</td>
+
+<td>
+<input type="radio" name="rdrive"  value="Yes" /> Yes 
+<input type="radio" name="rdrive"  value="No"/> No 
+</input>
+</td>
+</tr>
+
+<tr>
+<td>
+Number of People Travlling
+</td>
+
+<td>
+<input type="number" name="children" nowrap placeholder = "Enter Number Of Children"> </>
+<input type="number" name="adults" nowrap placeholder = "Enter Number Of Adults"> </>
+</td>
+</tr
+
+
+
+<!--<tr>
+<td>
+Photo
+</td>
+
+<td>
+<input type="file" name="imgfile"> </input>
+</td>
+</tr>-->
+
+<tr>
+<th colspan="2">
+<input type="submit" name="sub" > </input>
+<input type="reset" name="res" > </input>
+</th>
+</tr> 
+
+</center>
+</body>
+</html>

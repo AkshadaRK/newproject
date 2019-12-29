@@ -1,0 +1,59 @@
+<html>
+
+<body background="images/bg.jpg">
+
+<marquee> 
+Center for Diploma in Advanced Computing
+</marquee>
+
+<head> <b> <h1><center> <br> INFOWAY </br> </center> </h1> </b>
+
+
+<center> <img height="100" width="200" 
+ src="images/images.jpg"/> </center>
+ 
+ <hr color="black" size="2"> </hr>
+ 
+ 
+ <h2> <b> Courses </b> </h2> </br>  
+ 
+ <ol type="1">
+ 
+ <li> <b> PG-DAC </b> </li>
+	
+	<ol type="a">
+	<li> C++ </li>
+	<li> DataBases </li>
+	
+</ol>
+<br>
+<li> <b> PG-DMC </b> </li> 
+	
+	<ol type="a">
+	<li> Algorithms and Data Structure  </li>
+	<li> Operating Systems </li>
+</ol>
+<br>
+
+<li> <b> PG-DBDA </b> </li> 
+	
+	<ol type="a">
+	<li> Algorithms and Data Structure  </li>
+	<li> Operating Systems </li>
+	<li> C++ </li>
+	<li> DataBases </li>
+</ol>
+<br>
+
+<li> <b> PG-DESD </b> </li> 
+	
+	<ol type="a">
+	<li> Programming Concepts  </li>
+	<li> Microcontrollers and Interfacing </li>
+	<li>  Internet of Things(IoT) and Mobile Porgramming </li>
+	<li>  Effective Communication </li>
+</ol>
+<br>
+ </head>
+</body>
+</html>
